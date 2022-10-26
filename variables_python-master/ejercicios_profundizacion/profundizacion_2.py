@@ -1,0 +1,67 @@
+# Tipos de variables [Python]
+# Ejercicios de profundización
+
+# Autor: Inove Coding School
+# Version: 3.0
+
+# NOTA: 
+# Estos ejercicios son de mayor dificultad que los de clase y práctica.
+# Están pensados para aquellos con conocimientos previo o que dispongan
+# de mucho más tiempo para abordar estos temas por su cuenta.
+# Requiere mayor tiempo de dedicación e investigación autodidacta.
+
+# IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
+
+# Ejercicios de práctica numérica y cadenas
+'''
+Enunciado:
+El objetivo es realizar un programa que consulte por consola:
+- El nombre completo de una persona
+- El número de identificación de una persona
+- La edad de una persona
+- La altura de una persona
+
+Finalmente el programa debe imprimir los contenidos
+de las variables generadas durante el programa en el siguiente
+formato, dos líneas de texto por separado (dos print separados):
+- Un print debe imprimir el nombre completo y el DNI.
+        Ej: Juan Carlos 35205070
+- El segundo print debe imprimir la edad y la altura.
+        Ej: 38 1.70
+
+Alumno:
+- Crear una una variable llamada nombre_completo
+  para almacenar el nombre completo que usted
+  debe ingresar por consola con la función input.
+  Recuerde en este caso utilizar el input junto a str.
+
+- Crear una una variable llamada identificacion
+  para almacenar el número de identificación que usted
+  debe ingresar por consola con la función input.
+  Recuerde en este caso utilizar el input junto a int.
+  IMPORTANTE: Solo ingresar números, sin puntos o guiones
+
+- Crear una una variable llamada edad
+  para almacenar la edad que usted
+  debe ingresar por consola con la función input.
+  Recuerde en este caso utilizar el input junto a int.
+
+- Crear una una variable llamada altura
+  para almacenar la altura que usted
+  debe ingresar por consola con la función input.
+  Recuerde en este caso utilizar el input junto a float.
+
+'''
+
+print('Sistema de ingreso de datos')
+# Empezar aquí la resolución del ejercicio
+
+#Primer_nombre = str(input('Ingrese por consola su primer nombre:'))
+#Segundo_nombre = str(input('Ingrese por consola su segundo nombre:'))
+nombre_completo = str(input('Ingrese el nombre completo de una persona:'))
+identificacion = int(input('Ingrese el número de identificación de una persona:'))
+edad= int(input('Ingrese la edad de una persona:'))
+altura = float(input('Ingrese la altura de una persona:'))
+
+print("el nombre de la persona es:", nombre_completo,"identificado con numero", identificacion)
+print("su edad es", edad, "años", "y su altura es de", altura, "cm")
